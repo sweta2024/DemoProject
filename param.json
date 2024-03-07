@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServicePlanName": {
+            "value": "la-asp"
+        },
+        "storageAccountName": {
+            "value": "stgacc2024sweta"
+        },
+        "logicAppName": {
+            "value": "la-standard"
+        },
+        "serviceBusName": {
+            "value": "tasksavedName"
+        },
+        "serviceBusTopicName": {
+            "value": "tasksavedtopic"
+        },
+        "serviceBusTopicAuthorizationRuleName": {
+            "value": "tasksavedtopic-manage-policy"
+        },
+        "backendProcessorServiceName": {
+            "value": "tasksmanager-backend-processor"
+        },
+        "logAnalyticsWorkspaceName": {
+            "value": "my-workspace"
+        },
+        "applicationInsightName": {
+            "value": "la_insights"
+        },
+        "apiConnName": {
+            "value": "off365_con"
+        },
+        "displayName": {
+            "value": "off365_connnection"
+        },
+        "keyVaultName": {
+            "value": "rg-key-vvault"
+        }
+    }
+}
